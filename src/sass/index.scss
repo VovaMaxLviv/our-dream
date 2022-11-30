@@ -1,2 +1,9 @@
-@import './common';
-@import './example';
+
+
+@import './../../node_modules/modern-normalize/modern-normalize.css';
+// @import './abstracts/modern-normalize';
+@import './abstracts/variables';
+@import './abstracts/fonts';
+@import './base/base';
+
+@import './components/main.scss';
