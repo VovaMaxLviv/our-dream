@@ -1,9 +1,12 @@
 .container {
-  width: 100%;
-  max-width: 414px;
+ 
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
+  @media screen and (min-width: 414px) {
+    width: var(--mobile);
+  }
 
   @media screen and (min-width: 1024px) {
     width: var(--tablet);
