@@ -1,6 +1,11 @@
 .wrapper__about-hotel {
     display: flex;
     flex-direction: column;
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row-reverse;
+        
+    }
 }
 
 .wrapper__bedroom {
@@ -10,11 +15,21 @@
 
 .wrapper__hall {
     display: flex;
+
+    @media screen and (min-width: 1024px) {
+        justify-content: flex-end;
+    }
 }
 
 .wrapper__hall-text {
     margin: auto 0;
     display: flex;
+    max-width: 163px;
+
+    @media screen and (min-width: 1024px) {
+        max-width: 312px;
+        margin-right: 48px;
+    }
 }
 
 .hotel__subtitle {
@@ -25,6 +40,17 @@
     margin-top: 18px;
     margin-bottom: 6px;
     text-align: right;
+
+        @media screen and (min-width: 1024px) {
+            font-family: 'Times New Roman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 37px;
+        }
+
+        @media screen and (min-width: 1280px) {
+        }
 }
 
 .hotel__name {
@@ -36,6 +62,15 @@
     margin-bottom: 16px;
     color: var(--color-dark);
     text-align: right;
+
+    @media screen and (min-width: 1024px) {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+        letter-spacing: 0.3em;
+    }
 }
 
 .hotel__text {
@@ -46,4 +81,35 @@
     color: var(--color-beige1);
     max-width: 258px;
     margin-bottom: 28px;
+
+    @media screen and (min-width: 1024px) {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+}
+
+.bedroom-img {
+    margin-bottom: 32px;
+}
+
+.hall__text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+
+    color: var(--color-brown);
+
+    @media screen and (min-width: 1024px) {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
 }
