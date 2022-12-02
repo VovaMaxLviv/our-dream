@@ -62,15 +62,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        
-        outline:  2px dashed red;
+        justify-content: center; 
         
     }
 
     &__title {
         margin-bottom: 20px;
-        padding-left: 35px;
+        transform: translateX(0.1em);
 
         font-family: var(--font-logo);
         font-style: normal;
@@ -97,7 +95,7 @@
     }
 
     &__title-secondary {
-        margin-bottom: 44px;
+        margin-bottom: 40px;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -130,7 +128,7 @@
         text-transform: uppercase;
 
         @media screen and (min-width: 1024px) {
-            margin-bottom: 145px;
+            margin-bottom: 137px;
             font-size: 36px;
             line-height: 1.14;
         }
@@ -142,6 +140,10 @@
         @media screen and (min-width: 1024px) {
             display: flex;
             justify-content: space-between;
+            margin-bottom: 28px;
+        }
+
+        @media screen and (min-width: 1280px) {
             margin-bottom: 64px;
         }
 
@@ -154,7 +156,8 @@
         justify-content: center;
         gap: 8px;
         min-width: 210px;
-        padding: 8px 6px;
+        
+        padding: 8px 8px 8px 11px;
         font-family: var(--font-main);
         font-style: normal;
         font-weight: 400;
@@ -174,12 +177,20 @@
         }
 
         @media screen and (min-width: 1024px) {
-           
+            height: 56px;
+            padding: 8px 8px 8px 10px;
+            font-size: 16px;
         }
+
+        @media screen and (min-width: 1280px) {
+            gap: 10px;
+        }
+
+        
     }
 
     &__icon-link {
-
+        fill: var(--color-primary);
     }
 
     &__buttons-wrapper {
@@ -197,6 +208,32 @@
             flex-direction: row;
             gap: 60px;
         }
+    }
+
+    &__socials-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 23px;
+        margin-right: auto;
+        margin-bottom: 21px;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 18px;
+        }
+        @media screen and (min-width: 1280px) {
+            display: none;
+        }
+        
+    }
+
+    &__socials-link {
+        color: var(--color-primary);
+        cursor: pointer;
+    }
+
+    &__socials-icon {
+        fill: currentColor;
     }
 }
 
