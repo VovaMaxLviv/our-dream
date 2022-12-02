@@ -6,6 +6,12 @@
         flex-direction: row-reverse;
         gap: 46px;
     }
+
+    @media screen and (min-width: 1024px) {
+        justify-content: flex-end;
+        margin-left: 95px;
+        gap: 67px;
+    }
 }
 
 .wrapper__bedroom {
@@ -13,17 +19,30 @@
     max-width: 67%;
 
     @media screen and (min-width: 1024px) {
-        margin: auto 0;
+        margin: auto 0 167px 0;
+        width: 419px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin: auto 0 187px 0;
         width: 419px;
     }
 }
 
 .wrapper__hall {
     display: flex;
+    gap: 21px;
+    margin-bottom: 349px;
 
     @media screen and (min-width: 1024px) {
         justify-content: flex-end;
         max-height: 475px;
+        margin-bottom: 262px;
+        gap: 48px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        gap: 45px;
     }
 }
 
@@ -34,7 +53,7 @@
 
     @media screen and (min-width: 1024px) {
         max-width: 312px;
-        margin-right: 48px;
+        gap: 48px;
     }
 }
 
@@ -53,6 +72,7 @@
             font-weight: 400;
             font-size: 32px;
             line-height: 37px;
+            margin-top: 0px;
         }
 
         @media screen and (min-width: 1280px) {
