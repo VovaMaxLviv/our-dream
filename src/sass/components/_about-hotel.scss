@@ -1,0 +1,18 @@
+.wrapper__about-hotel {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__bedroom {
+    align-self: flex-end;
+    max-width: 67%;
+}
+
+.wrapper__hall {
+    display: flex;
+}
+
+.wrapper__hall-text {
+    margin: auto 0;
+    display: flex;
+}
