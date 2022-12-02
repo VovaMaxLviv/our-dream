@@ -4,6 +4,12 @@
   left: 0;
   z-index: 98;
   width: 100%;
+
+  transition: 250ms var(--timing-function);
+
+  &.sticky {
+    background-color: var(--dark-background);
+  }
 }
 
 .header__container {
