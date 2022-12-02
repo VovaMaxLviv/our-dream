@@ -66,17 +66,14 @@
     margin-bottom: 6px;
     text-align: right;
 
-        @media screen and (min-width: 1024px) {
-            font-family: 'Times New Roman';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 37px;
-            margin-top: 0px;
-        }
-
-        @media screen and (min-width: 1280px) {
-        }
+    @media screen and (min-width: 1024px) {
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 37px;
+        margin-top: 0px;
+    }
 }
 
 .hotel__name {
