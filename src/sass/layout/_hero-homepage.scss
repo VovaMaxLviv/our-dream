@@ -134,11 +134,15 @@
         }
     }
 
+   
     &__link-button-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        margin-bottom: 60px;
 
         @media screen and (min-width: 1024px) {
-            display: flex;
             justify-content: space-between;
             margin-bottom: 28px;
         }
@@ -146,9 +150,8 @@
         @media screen and (min-width: 1280px) {
             margin-bottom: 64px;
         }
-
-       
     }
+
 
     &__link{
         display: flex;
@@ -208,6 +211,21 @@
             flex-direction: row;
             gap: 60px;
         }
+    }
+
+    &__button {
+        min-width: 236px;
+        min-height: 48px;
+        padding: 0 24px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+
+        color: var(--color-primary);
+        background: rgba(0, 0, 0, 0.4);
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
     }
 
     &__socials-list {
