@@ -1,0 +1,54 @@
+
+.restaurant__subtitle {
+font-family: 'Times New Roman';
+font-size: 20px;
+line-height: 1.15;
+color: var(--color-beige4);
+margin-right: auto;
+margin-bottom: 12px;
+}
+
+.restaurant__name {
+    font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 43px;
+        letter-spacing: 0.3em;
+    margin-right: auto;
+    margin-bottom: 12px;
+        color: var(--color-dark);
+}
+
+.restaurant__text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        margin-right: auto;
+        color: var(--color-beige1);
+        max-width: 258px;
+        margin-bottom: 28px;
+}
+.restaurant__img{
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+.restaurant-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.restaurant__description{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 163px;
+
+
+    color: var(--color-brown);
+}
+.restaurant-reserv__title {}
+
+.restaurant-reserv__text {}
