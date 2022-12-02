@@ -26,3 +26,16 @@ $('.modal-overlay').click(function () {
  $(this).removeClass('show');
  $('.modal.show').removeClass('show');
 });
+
+const swiper = new Swiper('.hero-slider', {
+  // Optional parameters
+  loop: true,
+  speed: 1000,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
