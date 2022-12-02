@@ -1,8 +1,9 @@
-
 @import 'section';
 @import 'container';
-// @import 'footer';
-// @import 'header';
+@import '../components/logo';
+
+@import '../layout/footer';
+@import '../layout/header';
 @import '../layout/hero-homepage';
 @import '../layout/hero-restaurant';
 @import '../layout/hero-hotel';
@@ -10,5 +11,3 @@
 // @import 'logo';
 
 // @import 'modal';
-
-

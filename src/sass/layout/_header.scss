@@ -1,0 +1,132 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 414px;
+  height: 100px;
+  padding: 28px 15px;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 1024px;
+    padding: 30px 47px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding: 30px 85px;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+
+  @media screen and (min-width: 380px) {
+    justify-content: space-start;
+  }
+
+  @media screen and (min-width: 1024px) {
+    justify-content: start;
+  }
+}
+
+.nav__item {
+  display: flex;
+}
+
+.nav__item:nth-child(2n) {
+  margin-left: 6px;
+  padding: 0;
+
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 2px;
+
+  @media screen and (min-width: 1024px) {
+    margin-left: 32px;
+    padding: 8px;
+    border-color: var(--color-border-social);
+  }
+}
+
+.nav__item:nth-child(3) {
+  margin-left: 56px;
+
+  @media screen and (min-width: 380px) {
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-left: 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 72px;
+  }
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+
+  @media screen and (min-width: 1024px) {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.nav__icon {
+  margin-right: 0;
+  fill: var(--color-primary);
+
+  @media screen and (min-width: 1024px) {
+    margin-right: 8px;
+  }
+}
+
+.nav__text {
+  display: none;
+
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+
+  &--phone {
+    margin-left: 16px;
+  }
+}
+
+.social {
+  display: none;
+  gap: 20px;
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.social__icon {
+  fill: var(--color-primary);
+}
