@@ -160,4 +160,148 @@ ul {
     padding-left: 85px;
     padding-right: 85px;
   }
+}
+
+.number__list {
+  padding: 32px 0;
+}
+
+.number__title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.number__description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+}
+@media screen and (min-width: 1026px) {
+  .number__description {
+    width: 757px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .number__description {
+    width: 757px;
+  }
+}
+
+.number__item-title {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+  align-items: flex-start;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1026px) {
+  .number__box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .number__box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .number__button {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .number__button {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 198px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .big {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .big {
+    max-width: 500px;
+  }
+}
+
+.number__item-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+  padding-bottom: 16px;
+}
+@media screen and (min-width: 1026px) {
+  .number__item-description {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .number__item-description {
+    max-width: 400px;
+  }
+}
+
+.number__item-description:nth-last-child(1) {
+  padding-bottom: 0;
+}
+
+.reservation__button {
+  width: 384px;
+  height: 64px;
+  background: #000000;
+  border: 1px solid #F3C653;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1026px) {
+  .reservation__button {
+    width: 434px;
+    height: 64px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .reservation__button {
+    width: 434px;
+    height: 64px;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }/*# sourceMappingURL=index.css.map */
