@@ -4,6 +4,7 @@
     max-width: 414px;
 
     @media screen and (min-width: 1024px) {
+      height: 720px;
       max-width: 1024px;
     }
     @media screen and (min-width: 1280px) {
@@ -108,7 +109,7 @@
 
     &__link-wrapper {
       display: flex;
-      
+
     }
 
     &__link{ 
