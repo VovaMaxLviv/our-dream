@@ -99,6 +99,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 24px;
+    padding-bottom: 40px;
         @media screen and (min-width:1024px) {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/tablet/back.jpg);
             padding-top: 48px;
@@ -159,13 +160,6 @@
             margin-left: 585px !important;
         }
 }
-.swiper{
-    padding-bottom: 40px !important;
-        @media screen and (min-width:1024px) {
-            padding-bottom: 96px !important;
-        }
-
-}
 .swiper-wrapper{
     padding-bottom: 72px;
     padding-top: 32px;
@@ -199,6 +193,7 @@ img{
         @media screen and (min-width:1024px) {
             .swipper--margin-left{
                 margin-left: 50px  !important;
+                padding-bottom: 96px !important;
         }
             .swiper-wrapper--padding{
                 padding: 0;
@@ -216,6 +211,7 @@ img{
 }
 
 .swiper-button-prev {
+    background-color: transparent;
     left: 226px !important;
     top: 310px !important;
     @media screen and (min-width:1024px) {
@@ -228,6 +224,7 @@ img{
     }
 }
 .swiper-button-next {
+    background-color: transparent;
     top: 310px !important;
     right: 10px;
         @media screen and (min-width:1024px) {
@@ -248,7 +245,6 @@ img{
 .swiper-button-prev--right{
     top: 325px !important;
     right: 290px !important;
-    right: 550px !important;
         @media screen and (min-width:1024px) {
             right: 550px !important;
             top: 302px !important;
