@@ -32,10 +32,39 @@ const swiper = new Swiper('.hero-slider', {
   loop: true,
   speed: 1000,
 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
   // Navigation arrows
+/* Swiper */
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  
+  breakpoints: {
+    414: {
+      slidesPerView: 1.2 ,
+      spaceBetween: 25
+    },
+    1024: {
+      slidesPerView: 2 ,
+      spaceBetween: 40
+    },
+    1280: {
+      slidesPerView: 2 ,
+      spaceBetween: 40
+    }
+  },
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 
+  mousewheel: {
+    sensitivity: 1,
+  },
 });
