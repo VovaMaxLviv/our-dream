@@ -25,7 +25,7 @@
 
     @media screen and (min-width: 1280px) {
         margin: auto 0 187px 0;
-        width: 419px;
+        width: 488px;
     }
 }
 
@@ -118,6 +118,10 @@
         margin-bottom: 0;
         margin-right: 0;
         max-width: 419px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        max-width: 488px;
     }
 }
 
