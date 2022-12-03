@@ -215,21 +215,6 @@
         }
     }
 
-    &__button {
-        min-width: 232px;
-        min-height: 48px;
-        padding: 0 24px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-
-        color: var(--color-primary);
-        background: rgba(0, 0, 0, 0.4);
-        border: 2px solid #FFFFFF;
-        border-radius: 25px;
-    }
-
     &__socials-list {
         display: flex;
         align-items: center;
