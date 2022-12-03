@@ -1,7 +1,7 @@
     @media screen and (min-width:1024px) {
-      .restaurant--part{
+        .restaurant--part{
         display: flex;
-      }
+    }
     }
 .restaurant__subtitle {
     font-family: var(--font-subhead);
@@ -28,36 +28,36 @@
     margin-bottom: 12px;
     color: var(--color-dark);
         @media screen and (min-width:1024px) {
-                margin-top: 4px;
-                    font-size: 64px;
-                    line-height: 1.07;
+            margin-top: 4px;
+            font-size: 64px;
+            line-height: 1.07;
             }
 }
 
 .restaurant__text {
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-        margin-right: auto;
-        color: var(--color-beige1);
-        max-width: 258px;
-        margin-bottom: 28px;
-    @media screen and (min-width:1024px) {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin-right: auto;
+    color: var(--color-beige1);
+    max-width: 258px;
+    margin-bottom: 28px;
+        @media screen and (min-width:1024px) {
             font-size: 16px;
             max-width: 454px;
         }
-    @media screen and (min-width:1280px) {
-    max-width:518px;
-    margin-bottom: 0;
-    margin-right: 37px;
+        @media screen and (min-width:1280px) {
+            max-width:518px;
+            margin-bottom: 0;
+            margin-right: 37px;
         }
 }
 .restaurant__img{
     margin-left: auto;
     margin-bottom: 32px;
-    @media screen and (min-width:1024px) {
-        margin-top: -32px;
+        @media screen and (min-width:1024px) {
+            margin-top: -32px;
         }
 }
 .restaurant-wrapper {
@@ -65,16 +65,16 @@
     justify-content: space-between;
     align-items: center;
 
-    @media screen and (min-width:1024px) {
+        @media screen and (min-width:1024px) {
             justify-content: flex-start;
             & img {
                 margin-top: -45px;
             }
         }
-    @media screen and (min-width:1280px) {
-        & img {
+        @media screen and (min-width:1280px) {
+            & img {
             margin-top: -90px;
-         }
+        }
     }
 }
 .restaurant__description{
@@ -84,14 +84,14 @@
     letter-spacing: 0.02em;
     max-width: 163px;
     color: var(--color-brown);
-    @media screen and (min-width:1024px) {
+        @media screen and (min-width:1024px) {
+            font-size: 16px;
+            margin-left: 48px;
             max-width: 312px;
-                font-size: 16px;
-                margin-left: 48px;
             }
-                @media screen and (min-width:1024px) {
-                    margin-left: 48px;
-                margin-bottom: 119px;
+        @media screen and (min-width:1024px) {
+            margin-bottom: 119px;
+            margin-left: 48px;
                 }
 }
 .section--bg-image{
@@ -99,12 +99,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 24px;
-    padding-bottom: 40px;
         @media screen and (min-width:1024px) {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/tablet/back.jpg);
-                padding-top: 48px;
-                    padding-bottom: 96px;
-        
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/tablet/back.jpg);
+            padding-top: 48px;
             }
         @media screen and (min-width:1280px) {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/desktop/back.jpg);
@@ -113,65 +110,68 @@
 .restaurant__name--color{
     color:var(--color-white);
     margin-left: 108px;
-            @media screen and (min-width:1024px) {
-                margin-top: 0;
-                margin-left: 278px;
-                margin-bottom: 16px;
-                }
+        @media screen and (min-width:1024px) {
+            margin-left: 278px;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
 }
 .restaurant-reserv__title {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-white);
     margin-left: 108px;
     margin-bottom: 20px;
-                @media screen and (min-width:1024px) {
-                        font-size: 24px;
-                        margin-left: 278px;
-                        margin-bottom: 8px;
-                    }
+        @media screen and (min-width:1024px) {
+            font-size: 24px;
+            margin-left: 278px;
+            margin-bottom: 8px;
+        }
 }
 
 .restaurant-reserv__text {
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-        max-width: 241px;
-        color: var(--color-beige5);
-        margin-left: 108px;
-        margin-bottom: 28px;
-                        @media screen and (min-width:1024px) {
-                        font-size: 16px;
-                        margin-bottom: 40px;
-                        max-width: 600px;
-                                margin-left: 278px;
-
-                    }
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 241px;
+    color: var(--color-beige5);
+    margin-left: 108px;
+    margin-bottom: 28px;
+        @media screen and (min-width:1024px) {
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: 278px;
+            font-size: 16px;
+        }
         
 }
 .swiper--accent{
     margin-left: 64px !important;
         @media screen and (min-width:1024px) {
-    margin-left: 500px !important;
-    margin-top: -75px;
-            }
-                        @media screen and (min-width:1280px) {
-                            margin-left: 585px !important;
-                            margin-top: -190px;
-                        }
+            margin-top: -75px;
+            margin-left: 500px !important;
+        }
+        @media screen and (min-width:1280px) {
+            margin-top: -190px;
+            margin-left: 585px !important;
+        }
 }
 .swiper{
-    position: relative;
+    padding-bottom: 40px !important;
+        @media screen and (min-width:1024px) {
+            padding-bottom: 96px !important;
+        }
+
 }
 .swiper-wrapper{
     padding-bottom: 72px;
     padding-top: 32px;
         @media screen and (min-width:1024px) {
-        padding-top: 50px;
-        padding-bottom: 96px;
+            padding-bottom: 96px;
+            padding-top: 50px;
             }
 
 
@@ -181,29 +181,29 @@
     border-radius: 2px;
 }
 img{
-        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-            border-radius: 2px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 }
 
 .swipper--margin{
     padding-left: 10px;
-    @media screen and (min-width:1024px) {
-    display: flex;
-     flex-direction: row-reverse;
+        @media screen and (min-width:1024px) {
+            flex-direction: row-reverse;
+            display: flex;
         }
 
-& .swiper-slide{
+    & .swiper-slide{
     max-width: 275px;
     min-height: 270px;
-}}
+    }}
         @media screen and (min-width:1024px) {
-.swipper--margin-left{
-margin-left: 50px  !important;
-}
-.swiper-wrapper--padding{
-    padding: 0;
-}
+            .swipper--margin-left{
+                margin-left: 50px  !important;
         }
+            .swiper-wrapper--padding{
+                padding: 0;
+        }
+}
 .restaurant__btns{
     display: flex;
     flex-direction: column;
@@ -213,4 +213,47 @@ margin-left: 50px  !important;
 }
 .button--decor{
     text-decoration: none;
+}
+
+.swiper-button-prev {
+    left: 226px !important;
+    top: 310px !important;
+    @media screen and (min-width:1024px) {
+        top: 284px !important;
+        left: 348px !important;
+    }
+    @media screen and (min-width:1280px) {
+        top: 336px !important;
+        left: 431px !important;
+    }
+}
+.swiper-button-next {
+    top: 310px !important;
+    right: 10px;
+        @media screen and (min-width:1024px) {
+            top: 284px !important;
+        }
+        @media screen and (min-width:1280px) {
+            top: 336px !important;
+        }
+}
+
+.swiper-button-prev--left{
+    left: 0 !important;
+    top: 325px !important;
+        @media screen and (min-width:1024px) {
+            top: 302px !important;
+        }
+}
+.swiper-button-prev--right{
+    top: 325px !important;
+    right: 290px !important;
+    right: 550px !important;
+        @media screen and (min-width:1024px) {
+            right: 550px !important;
+            top: 302px !important;
+        }
+        @media screen and (min-width:1280px) {
+            right: 730px !important;
+        }
 }
