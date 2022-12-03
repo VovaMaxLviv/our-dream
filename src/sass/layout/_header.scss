@@ -19,16 +19,16 @@
   width: 100%;
   max-width: 414px;
   height: 100px;
-  padding: 28px 15px;
+  padding: 17px 15px;
 
   @media screen and (min-width: 1024px) {
     max-width: 1024px;
-    padding: 30px 47px;
+    padding: 24px 47px;
   }
 
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
-    padding: 30px 85px;
+    padding: 24px 85px;
   }
 }
 
