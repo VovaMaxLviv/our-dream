@@ -1,0 +1,39 @@
+.three-adult {
+  background-color: var(--sense-background);
+}
+
+.three-adult__container {
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+.three-adult__subtitle-text {
+  font-family: var(--font-subhead);
+  font-size: 32px;
+  line-height: 1.16;
+  color: var(--color-beige4);
+}
+.three-adult__subtitle {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-dark);
+}
+.three-adult__title {
+  font-family: var(--font-subhead);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-black);
+}
+.three-adult__desc {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--color-beige2);
+}
