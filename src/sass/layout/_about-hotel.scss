@@ -85,8 +85,11 @@
     margin-bottom: 16px;
     color: var(--color-dark);
     text-align: right;
+    margin-right: -12px;
 
     @media screen and (min-width: 1024px) {
+        margin-right: -20px;
+
         font-family: 'Film P3';
         font-style: normal;
         font-weight: 700;
@@ -120,6 +123,8 @@
 
 .bedroom-img {
     margin-bottom: 32px;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 
     @media screen and (min-width: 1024px) {
         margin-bottom: 0;
@@ -149,6 +154,8 @@
 }
 
 .hall-img {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
 
     @media screen and (min-width: 1024px) {
         margin-bottom: 0;
