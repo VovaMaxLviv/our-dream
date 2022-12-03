@@ -26,7 +26,7 @@ $('.modal-overlay').click(function () {
  $(this).removeClass('show');
  $('.modal.show').removeClass('show');
 });
-
+  // Navigation arrows
 /* Swiper */
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
@@ -54,5 +54,17 @@ const swiper = new Swiper('.swiper', {
 
   mousewheel: {
     sensitivity: 1,
+  },
+  
+});
+
+new Swiper('.hero-slider', {
+  // Optional parameters
+  loop: true,
+  speed: 1000,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });
