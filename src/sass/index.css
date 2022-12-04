@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@import'./../../node_modules/modern-normalize/modern-normalize.css';:root{--color-primary: #F3C653;--color-primary-dark: #C79002;--color-brown: #C79002;--color-dark: #494848;--color-beige1: #5F5F5F;--color-beige2: #7A7A7A;--color-beige3: #828282;--color-beige4: #B4B4B4;--color-beige5: #BABABA;--color-white: #fff;--color-black: #000;--sense-background: #F0ECD6;--light-background: #FFFDEE;--dark-background: #0E0C07;--timing-function: cubic-bezier(0.4, 0, 0.2, 1);--mobile: 414px;--mobile-less: 413px;--tablet: 1024px;--tablet-less: 1023px;--desktop: 1280px;--desktop-less: 1279px}@font-face{font-family:"Montserrat";src:url("../fonts/Montserrat-Regular.woff2") format("woff2"),url("../fonts/Montserrat-Regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Montserrat";src:url("../fonts/Montserrat-Medium.woff2") format("woff2"),url("../fonts/Montserrat-Medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:"Montserrat";src:url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),url("../fonts/Montserrat-SemiBold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:"Montserrat";src:url("../fonts/Montserrat-Bold.woff2") format("woff2"),url("../fonts/Montserrat-Bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}body{margin:0;font-family:"Montserrat",sans-serif;font-style:normal;background:var(--light-background);color:var(--color-primary);font-size:14px;line-height:1.19;font-weight:400}h1,h2,h3,h4,h5,h6,p,ul{padding:0;margin:0}img{display:block;max-width:100%;height:auto}ul{list-style:none}.visually-hidden{position:absolute;white-space:nowrap;width:1px;height:1px;overflow:hidden;border:0;padding:0;clip:rect(0 0 0 0);clip-path:inset(50%);margin:-1px}.section{margin-left:auto;margin-right:auto}.container{width:var(--mobile);padding-left:15px;padding-right:15px;margin:0 auto}@media screen and (min-width: 1024px){.container{width:var(--tablet);padding-left:47px;padding-right:47px}}@media screen and (min-width: 1280px){.container{width:var(--desktop);padding-left:85px;padding-right:85px}}/*# sourceMappingURL=index.css.map */
+=======
 @import './../../node_modules/modern-normalize/modern-normalize.css';
 :root {
   --font-main: "Montserrat", sans-serif;
@@ -465,7 +468,6 @@ ul {
   align-items: center;
   width: 100%;
   max-width: 414px;
-  height: 100px;
   padding: 17px 15px;
 }
 @media screen and (min-width: 1024px) {
@@ -1271,24 +1273,239 @@ ul {
   fill: currentColor;
 }
 
+.contacts {
+  background-color: var(--light-background);
+  width: 100%;
+  max-width: 414px;
+  padding: 36px 0 32px;
+}
+@media screen and (min-width: 1024px) {
+  .contacts {
+    max-width: 1024px;
+    padding: 69px 0 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts {
+    max-width: 1280px;
+    padding: 64px 0 74px;
+  }
+}
+
+.contacts__container {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.contacts__subtitle {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--color-dark);
+  margin-bottom: 12px;
+}
+
+.contacts__desc {
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--color-beige1);
+  margin-bottom: 16px;
+}
+
+.contacts__list {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__list {
+    display: block;
+    justify-content: start;
+  }
+}
+
+.contacts__item {
+  display: flex;
+}
+
+.contacts__item:nth-child(2n) {
+  padding: 0;
+  background: var(--color-white);
+  border: 0.5px solid;
+  border-radius: 2px;
+  border-color: var(--color-primary);
+  border: 1px solid;
+  border-radius: 2px;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__item:nth-child(2n) {
+    border-color: var(--color-border-social);
+    margin-bottom: 24px;
+  }
+}
+
+.contacts__item:nth-child(2n+1) {
+  margin-bottom: 8px;
+}
+
+.contacts__item:nth-child(2) {
+  margin-right: 100px;
+  margin-left: 38px;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__item:nth-child(2) {
+    margin-right: 100px;
+    margin-left: 0;
+  }
+}
+
+.contacts__item:nth-child(4) {
+  width: 260px;
+  margin-left: 61px;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__item:nth-child(4) {
+    margin-left: 0;
+  }
+}
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+  padding: 9px 8px 7px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-primary-dark);
+}
+@media screen and (min-width: 1024px) {
+  .contacts__link {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.contacts__container-link-map {
+  display: flex;
+  justify-content: end;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__container-link-map {
+    justify-content: start;
+  }
+}
+
+.contacts__link-map {
+  display: flex;
+  align-items: center;
+  padding: 8px 33px 7px 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  width: 260px;
+  color: var(--color-dark);
+  background: var(--color-white);
+  border: 0.5px solid;
+  border-radius: 2px;
+  border-color: var(--color-primary);
+  margin-bottom: 32px;
+}
+
+.contacts__icon {
+  margin-right: 0;
+  fill: var(--color-primary-dark);
+}
+@media screen and (min-width: 1024px) {
+  .contacts__icon {
+    margin-right: 8px;
+  }
+}
+
+.contacts__text {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+@media screen and (min-width: 1024px) {
+  .contacts__text {
+    display: block;
+  }
+}
+
+.contacts__map {
+  width: 384px;
+  height: 220px;
+}
+@media screen and (min-width: 1024px) {
+  .contacts__map {
+    width: 535px;
+    height: 412px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__map {
+    width: 634px;
+    height: 412px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurant--part {
+    display: flex;
+  }
+}
 .restaurant__subtitle {
-  font-family: "Times New Roman";
+  font-family: var(--font-subhead);
   font-size: 20px;
   line-height: 1.15;
   color: var(--color-beige4);
   margin-right: auto;
   margin-bottom: 12px;
+  margin-top: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__subtitle {
+    margin-top: 120px;
+    font-size: 32px;
+  }
 }
 
 .restaurant__name {
-  font-family: "Film P3";
+  font-family: var(--font-logo);
   font-weight: 700;
   font-size: 40px;
-  line-height: 43px;
+  line-height: 1.07;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
   margin-right: auto;
   margin-bottom: 12px;
   color: var(--color-dark);
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__name {
+    margin-top: 4px;
+    font-size: 64px;
+    line-height: 1.07;
+  }
 }
 
 .restaurant__text {
@@ -1301,17 +1518,47 @@ ul {
   max-width: 258px;
   margin-bottom: 28px;
 }
+@media screen and (min-width: 1024px) {
+  .restaurant__text {
+    font-size: 16px;
+    max-width: 454px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .restaurant__text {
+    max-width: 518px;
+    margin-bottom: 0;
+    margin-right: 37px;
+  }
+}
 
 .restaurant__img {
   margin-left: auto;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__img {
+    margin-top: -32px;
+  }
 }
 
 .restaurant-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant-wrapper {
+    justify-content: flex-start;
+  }
+  .restaurant-wrapper img {
+    margin-top: -45px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .restaurant-wrapper img {
+    margin-top: -90px;
+  }
 }
 
 .restaurant__description {
@@ -1321,6 +1568,162 @@ ul {
   letter-spacing: 0.02em;
   max-width: 163px;
   color: var(--color-brown);
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__description {
+    max-width: 312px;
+    font-size: 16px;
+    margin-left: 48px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__description {
+    margin-left: 48px;
+    margin-bottom: 119px;
+  }
+}
+
+.section--bg-image {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/about-restaurant/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .section--bg-image {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/tablet/back.jpg);
+    padding-top: 48px;
+    padding-bottom: 96px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section--bg-image {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(../images/about-restaurant/desktop/back.jpg);
+  }
+}
+
+.restaurant__name--color {
+  color: var(--color-white);
+  margin-left: 108px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__name--color {
+    margin-top: 0;
+    margin-left: 278px;
+    margin-bottom: 16px;
+  }
+}
+
+.restaurant-reserv__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-left: 108px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant-reserv__title {
+    font-size: 24px;
+    margin-left: 278px;
+    margin-bottom: 8px;
+  }
+}
+
+.restaurant-reserv__text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  max-width: 241px;
+  color: var(--color-beige5);
+  margin-left: 108px;
+  margin-bottom: 28px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant-reserv__text {
+    font-size: 16px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: 278px;
+  }
+}
+
+.swiper--accent {
+  margin-left: 64px !important;
+}
+@media screen and (min-width: 1024px) {
+  .swiper--accent {
+    margin-left: 500px !important;
+    margin-top: -75px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .swiper--accent {
+    margin-left: 585px !important;
+    margin-top: -190px;
+  }
+}
+
+.swiper {
+  position: relative;
+}
+
+.swiper-wrapper {
+  padding-bottom: 72px;
+  padding-top: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .swiper-wrapper {
+    padding-top: 50px;
+    padding-bottom: 96px;
+  }
+}
+
+.swiper img {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+img {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.swipper--margin {
+  padding-left: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .swipper--margin {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.swipper--margin .swiper-slide {
+  max-width: 275px;
+  min-height: 270px;
+}
+
+@media screen and (min-width: 1024px) {
+  .swipper--margin-left {
+    margin-left: 50px !important;
+  }
+  .swiper-wrapper--padding {
+    padding: 0;
+  }
+}
+.restaurant__btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.button--decor {
+  text-decoration: none;
 }
 
 .wrapper__about-hotel {
@@ -1354,7 +1757,7 @@ ul {
 @media screen and (min-width: 1280px) {
   .wrapper__bedroom {
     margin: auto 0 187px 0;
-    width: 419px;
+    width: 488px;
   }
 }
 
@@ -1418,9 +1821,11 @@ ul {
   margin-bottom: 16px;
   color: var(--color-dark);
   text-align: right;
+  margin-right: -12px;
 }
 @media screen and (min-width: 1024px) {
   .hotel__name {
+    margin-right: -20px;
     font-family: "Film P3";
     font-style: normal;
     font-weight: 700;
@@ -1452,9 +1857,16 @@ ul {
     max-width: 419px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .hotel__text {
+    max-width: 488px;
+  }
+}
 
 .bedroom-img {
   margin-bottom: 32px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 @media screen and (min-width: 1024px) {
   .bedroom-img {
@@ -1482,6 +1894,10 @@ ul {
   }
 }
 
+.hall-img {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
 @media screen and (min-width: 1024px) {
   .hall-img {
     margin-bottom: 0;
@@ -1533,3 +1949,4 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-beige2);
 }/*# sourceMappingURL=index.css.map */
+>>>>>>> main
