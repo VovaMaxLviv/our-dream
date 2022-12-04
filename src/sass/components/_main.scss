@@ -1,13 +1,15 @@
 @import 'section';
 @import 'container';
-@import 'buttons-list';
-@import 'two-adult-room';
-// @import 'footer';
-// @import 'header';
-// @import 'hero';
+@import '../components/logo';
+
+@import '../layout/footer';
+@import '../layout/header';
+@import '../layout/hero-homepage';
+@import '../layout/hero-restaurant';
+@import '../layout/hero-hotel';
+@import '../layout/hero-number';
+@import '../layout/contacts';
 // @import 'is-hidden';
 // @import 'logo';
 
 // @import 'modal';
-
-
