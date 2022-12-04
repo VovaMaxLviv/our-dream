@@ -72,8 +72,8 @@ new Swiper('.hero-slider', {
   speed: 1000,
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.hero-slider__button-next',
+    prevEl: '.hero-slider__button-prev',
   },
 
   mousewheel: {
