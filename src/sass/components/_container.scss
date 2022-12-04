@@ -19,4 +19,18 @@
     padding-left: 85px;
     padding-right: 85px;
   }
+
+  &__lines {
+    @media screen and (max-width: 1023px) {
+      background-image: var(--vertical-lines-mobile);
+    }
+
+    @media screen and (min-width: 1024px) {
+      background-image: var(--vertical-lines-tablet);
+    }
+
+    @media screen and (min-width: 1280px) {
+      background-image: var(--vertical-lines-desktop);
+    }
+  }
 }
