@@ -33,6 +33,14 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   
   breakpoints: {
+    320: {
+      slidesPerView: 1.2 ,
+      spaceBetween: 20,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      }
+    },
     414: {
       slidesPerView: 1.2 ,
       spaceBetween: 25
